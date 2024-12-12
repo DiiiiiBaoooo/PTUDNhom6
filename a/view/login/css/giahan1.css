@@ -1,0 +1,228 @@
+body {
+    background-color: #000000;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar {
+    background-color: #333333; /* Dark background color */
+    padding: 20px;
+    width: 200px; /* Adjust width as needed */
+    border-radius: 8px;
+}
+
+.sidebar .menu p {
+    text-align: center;
+    color: #bbbbbb; /* Light gray color for the title */
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.sidebar .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.sidebar .menu ul li {
+    margin: 10px 0;
+}
+
+.sidebar .menu ul li a {
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+    font-weight: normal;
+    display: block;
+    padding: 10px 0;
+}
+
+.sidebar .menu ul li a:hover {
+    color: #d81b1b; /* Highlight color on hover */
+}
+
+
+
+
+.update-info-container {
+    width:fit-content;
+    max-width: 100%;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #e6dddd96;
+    border-radius: 8px;
+    
+    color: #333333;
+}
+
+.update-info-container h2 {
+    color: #d81b1b;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: inline-block;
+    width: fit-content;
+    margin-right: 5px;
+    color: #333333;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="tel"] ,
+form input[type='date']
+{
+    width: calc(100%);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form input[type="email"] {
+    width: calc(100%);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button-group {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.update-btn {
+    background-color: #ee4f4f;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.renew-button {
+    background-color: #e90b0b;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.update-btn:hover {
+    background-color: #d81b1b;
+}
+
+.cancel-btn:hover {
+    background-color: #444444;
+}
+.left{
+   margin-right: 20px; 
+}
+.right{
+    width: fit-content;
+   
+    margin-left: 20px; 
+}
+.form-select {
+    width: calc(100%); /* Ensures the select takes the full width */
+    padding: 10px; /* Adds some padding inside the select */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    font-size: 16px; /* Font size */
+    color: #333; /* Text color */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: border-color 0.3s ease; /* Smooth border transition */
+}
+
+.form-select:hover {
+    border-color: #007bff; /* Change border color on hover */
+}
+
+.form-select:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #007bff; /* Change border color when focused */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a shadow effect */
+}
+
+.package-details {
+    padding: 15px; /* Adds space inside the box for better readability */
+    border: 1px solid #ddd; /* Adds a subtle border */
+    background-color: #f9f9f9; /* Light background color to make the text stand out */
+    border-radius: 8px; /* Rounds the corners for a softer look */
+    margin-top: 10px; /* Adds some space above the box */
+    color: #333; /* Darker text color for better contrast */
+    width: fit-content;
+    
+}
+
+.package-details p {
+    margin: 5px 0; /* Space between lines for readability */
+    font-weight: 500; /* Slightly bolder text for emphasis */
+    
+}
+.package-details {
+    margin-top: 10px!important;
+  /* Center text within the package details container */
+    margin: 0 auto; /* Center the container within its parent */
+    width: 75%;
+}
+
+.package-details p strong {
+    color: #111; /* Makes the section title even darker */
+}
+.button-group {
+    flex-grow: 1;
+    margin: auto;
+  }
+  
+  .button-group input[type="radio"] {
+    display: none;
+  }
+  
+  .button-group label {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #f4f4f4;
+    background-color: #fafafa;
+    color: rgb(10, 10, 10);
+    border-radius: 15px;
+    transition: all ease 0.2s;
+    text-align: center;
+    flex-grow: 1;
+    flex-basis: 0;
+    width: 150px;
+    font-size: 13px;
+    margin: 5px;
+    box-shadow: 0px 0px 50px -15px #000000;
+
+    
+  }
+  
+  .button-group input[type="radio"]:checked + label {
+    background-color: rgb(216, 14, 14);
+    color: #ffffff;
+    border: 1px solid #000000;
+  }
+  
+  fieldset {
+    border: 0;
+    display: flex;
+    margin-top: 10px !important;
+  }
+  
+  .button button{
+   width: fit-content;
+   align-self: center;
+  }
